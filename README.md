@@ -1,0 +1,2 @@
+# maxxer
+Maxxer - Golang challenge
