@@ -1,5 +1,5 @@
 
-# Golang challenge for Maxxer
+# Bitcoin Wallet 
 
 System responsible for managing funds and assets of an account or digital wallet.
 
