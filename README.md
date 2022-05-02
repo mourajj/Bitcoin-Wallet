@@ -127,7 +127,7 @@ Shows the person that has the greater amount of money according to the sum of al
 | :---------- | :--------- | :---------------------------------- |
 | `user` | `string` | **Mandatory** -  Name of the user |
 
-## BONUS / REQUIREMENTS:
+## BONUS:
 
 ### Load Testing - "How many requests per second your endpoints can make?"
 
@@ -139,10 +139,6 @@ There is a folder in this repository called "loadTesting", it contains 5 .js fil
 To run these tests, you need to install an [open-source load testing tool called K6](https://k6.io/docs/getting-started/installation/) (It's really easy to install).
  
 You can specify the amount of Virtual Users and also the time that the load test will run, feel free to check it out =)
-
-### "We don’t like empty databases =)" 
-
-Neither do I, therefore, there is folder called "sql" where you can see 2 files, one of them is the command to create the database and all of its tables, and the other is to insert some data on it.
 
 ### "If something wrong happens, how does your system let everybody know it?"
 
