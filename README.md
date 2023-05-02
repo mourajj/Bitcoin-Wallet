@@ -127,23 +127,3 @@ Shows the person that has the greater amount of money according to the sum of al
 | :---------- | :--------- | :---------------------------------- |
 | `user` | `string` | **Mandatory** -  Name of the user |
 
-## BONUS:
-
-### Load Testing - "How many requests per second your endpoints can make?"
-
-There is a folder in this repository called "loadTesting", it contains 5 .js files, each file is related to an endpoint which you can perform load tests by using this following command:
-
-```bash
-  k6 run deposit.js
-```
-To run these tests, you need to install an [open-source load testing tool called K6](https://k6.io/docs/getting-started/installation/) (It's really easy to install).
- 
-You can specify the amount of Virtual Users and also the time that the load test will run, feel free to check it out =)
-
-### "If something wrong happens, how does your system let everybody know it?"
-
-For each unexpected situation, there is HTTP return code and also an error message, feel free to try out!
-
-### "How can we measure the latency of the external APIs calls?"
-
-This can also be done with the K6 tool, if you want to test the external api delay, please refer to the balance.js file and take a look in my comment.
